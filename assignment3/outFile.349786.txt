@@ -1,0 +1,7 @@
+Terminated a task that takes 2 seconds.
+Terminated a task that takes 4 seconds.
+Terminated a task that takes 14 seconds.
+Terminated a task that takes 12 seconds.
+Terminated a task that takes 10 seconds.
+Terminated a task that takes 6 seconds.
+The runtime for this job was 24 [s].

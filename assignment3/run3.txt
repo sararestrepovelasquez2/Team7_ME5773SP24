@@ -1,0 +1,11 @@
+JobID             State    Elapsed   NNodes      NCPUS 
+------------ ---------- ---------- -------- ---------- 
+349787        COMPLETED   00:00:15        2        160 
+349787.batch  COMPLETED   00:00:15        1         80 
+349787.exte+  COMPLETED   00:00:15        2        160 
+349787.0      COMPLETED   00:00:14        1         40 
+349787.1      COMPLETED   00:00:02        1         40 
+349787.2      COMPLETED   00:00:13        1         40 
+349787.3      COMPLETED   00:00:04        1         40 
+349787.4      COMPLETED   00:00:10        1         40 
+349787.5      COMPLETED   00:00:06        1         40 
