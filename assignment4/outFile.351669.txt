@@ -1,0 +1,60 @@
+---------
+ITEM 3.2.
+---------
+Time to compute F1:  401.968001  [s].
+The value of F1 is:  3.1415926535810987
+---------
+ITEM 3.3.
+---------
+Time to compute F2:  15.942198  [s].
+The value of F2 is:  3.1415926535897052
+---------
+ITEM 3.4.
+---------
+Time to compute F3:  13.664417  [s].
+The value of F3 is:  3.1415926535810987
+---------
+ITEM 3.2.
+---------
+Time to compute F1:  373.820525  [s].
+The value of F1 is:  3.1415926535810987
+---------
+ITEM 3.3.
+---------
+Time to compute F2:  15.869727  [s].
+The value of F2 is:  3.1415926535897052
+---------
+ITEM 3.4.
+---------
+Time to compute F3:  9.483944  [s].
+The value of F3 is:  3.1415926535810987
+---------
+ITEM 3.2.
+---------
+Time to compute F1:  386.553907  [s].
+The value of F1 is:  3.1415926535810987
+---------
+ITEM 3.3.
+---------
+Time to compute F2:  16.040619  [s].
+The value of F2 is:  3.1415926535897052
+---------
+ITEM 3.4.
+---------
+Time to compute F3:  6.763539  [s].
+The value of F3 is:  3.1415926535810987
+---------
+ITEM 3.2.
+---------
+Time to compute F1:  378.562619  [s].
+The value of F1 is:  3.1415926535810987
+---------
+ITEM 3.3.
+---------
+Time to compute F2:  15.805347  [s].
+The value of F2 is:  3.1415926535897052
+---------
+ITEM 3.4.
+---------
+Time to compute F3:  5.076288  [s].
+The value of F3 is:  3.1415926535810987

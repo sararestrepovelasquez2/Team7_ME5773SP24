@@ -1,0 +1,12 @@
+name: envTeam7 
+channels:
+  - anaconda 
+dependencies:
+  - python=3.10 
+  - numpy
+  - scipy
+  - numexpr
+  - conda-forge::tensorflow=2.15
+  - pip  
+  - pip:
+    - gmsh 
