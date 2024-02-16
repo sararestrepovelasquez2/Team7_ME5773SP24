@@ -1,0 +1,35 @@
+1
+N = 10000
+Time create matrix: 0.158840179
+Time solve u: 28.201812029
+u[N] = [1.]
+2
+N = 10000
+Time create matrix: 0.169914961
+Time solve u: 14.415655851
+u[N] = [1.]
+4
+N = 10000
+Time create matrix: 0.161412239
+Time solve u: 8.225705385
+u[N] = [1.]
+8
+N = 10000
+Time create matrix: 0.157984972
+Time solve u: 5.294158697
+u[N] = [1.]
+16
+N = 10000
+Time create matrix: 0.156315565
+Time solve u: 3.354591608
+u[N] = [1.]
+20
+N = 10000
+Time create matrix: 0.155344248
+Time solve u: 3.150789738
+u[N] = [1.]
+40
+N = 10000
+Time create matrix: 0.156138659
+Time solve u: 2.789331436
+u[N] = [1.]
