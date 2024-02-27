@@ -1,0 +1,15 @@
+Time to generate A.csv: 3.237416
+Time to generate B.csv: 3.197917
+Time to generate C.csv: 11.989104
+Time to generate D.csv: 0.001996
+Time to generate E.csv: 0.001840
+Time to generate A.npy: 0.118072
+Time to generate B.npy: 0.015547
+Time to generate C.npy: 0.114305
+Time to generate D.npy: 0.001341
+Time to generate E.npy: 0.001062
+Time to create database A: 1.449154
+Time to create database B: 0.709785
+Time to create database C: 0.743133
+Time to create database D: 0.000348
+Time to create database E: 0.000623

@@ -1,0 +1,20 @@
+-------------------------------------------
+HW5 - ITEM 2 
+-------------------------------------------
+Time [s] to load A.csv: 0.624519
+Time [s] to load B.csv: 0.741937
+Time [s] to load C.csv: 6.516098
+Time [s] to load D.csv: 0.000876
+Time [s] to load E.csv: 0.000460
+-------------------------------------------
+Time [s] to load A.npy: 0.069288
+Time [s] to load B.npy: 0.010096
+Time [s] to load C.npy: 0.066683
+Time [s] to load D.npy: 0.000623
+Time [s] to load E.npy: 0.000363
+-------------------------------------------
+Time [s] to load A from hdf5: 0.325933
+Time [s] to load B from hdf5: 0.129837
+Time [s] to load C from hdf5: 0.211102
+Time [s] to load D from hdf5: 0.000087
+Time [s] to load E from hdf5: 0.000065
