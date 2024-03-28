@@ -1,0 +1,16 @@
+#!/bin/bash
+##
+#SBATCH --job-name=integral_mpi
+#SBATCH --output=part1.txt
+#SBATCH --output=part1.txt
+#SBATCH --partition=compute1
+#SBATCH --time=00:05:00
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=
+#SBATCH --ntasks=21
+#SBATCH --nodes=1
+
+# Load one of these
+module load anaconda3
+#module load mpich
+mpirun -n $SLURM_NTASKS python3 gauleg_part1.py
