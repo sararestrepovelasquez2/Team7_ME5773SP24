@@ -1,0 +1,62 @@
+Timer unit: 1e-06 s
+
+Total time: 23.9789 s
+File: euler_ode_profile.py
+Function: euler_integration at line 31
+
+Line #      Hits         Time  Per Hit   % Time  Line Contents
+==============================================================
+    31                                           @profile
+    32                                           def euler_integration(y0, t0, dt, tmax):
+    33                                               """
+    34                                               This function implements the Euler method to solve
+    35                                               an ordinary differential equation given an initial
+    36                                               condition (y0) and a constant time increment (dt).
+    37                                               The integration is performed until the maximum 
+    38                                               compute time is reached.
+    39                                           
+    40                                               The function to be integrated is defined in 
+    41                                               
+    42                                                int_funct(y_i, t_i )
+    43                                                            
+    44                                               INPUTS:
+    45                                               - y0: double, Initial value.
+    46                                               - t0: double, Initial time.
+    47                                               - dt: double, time increment.
+    48                                               - tmax: double, Maximum evaluation time.
+    49                                               
+    50                                               OUTPUTS:
+    51                                               - y: array float64, Contains all solutions for each time increment
+    52                                               - t: array float64, Contains the corresponding time evaluations for each function
+    53                                           
+    54                                                  y[i] contains the Euler's solution to the function at time t[i]
+    55                                           
+    56                                               """
+    57                                           
+    58                                               # Compute the number of evaluations.
+    59         1          1.9      1.9      0.0      nevals = int((tmax-t0)/dt) # Number of steps n
+    60                                               
+    61                                               # Initialize arrays.
+    62         1         10.6     10.6      0.0      y = np.zeros(nevals+1) 
+    63         1          7.8      7.8      0.0      t = np.zeros(nevals+1)
+    64                                           
+    65                                               # Save initial condition.
+    66         1          1.7      1.7      0.0      y[0] = y0 
+    67         1          0.4      0.4      0.0      t[0] = t0
+    68                                           
+    69                                               # Implement the for loop required to perform Euler's integration
+    70                                               #----------
+    71                                               
+    72  10000001    1977016.3      0.2      8.2      for i in range(1,nevals+1):
+    73  10000000   11350040.1      1.1     47.3          m = int_funct(y0,t0)
+    74  10000000    3369290.0      0.3     14.1          y[i] = y0 + dt * m
+    75  10000000    2644538.9      0.3     11.0          t[i] = t0 + dt
+    76  10000000    2347669.0      0.2      9.8          y0 = y[i]
+    77  10000000    2290336.6      0.2      9.6          t0 = t[i]
+    78                                               # end for. 
+    79                                           
+    80                                               #----------
+    81                                               # Do not modify after this line.
+    82                                           
+    83         1          3.4      3.4      0.0      return  y, t
+
