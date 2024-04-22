@@ -1,0 +1,14 @@
+ Index computed with linear search:            6
+ Index computed with binary search:            6
+  -------------------------- 
+ Testing on a sorted array
+ Index computed with linear search:      9999999     9999999
+ was the value found?:  T
+ CPU time with linear search:   3.092700000000000E-002
+ Index computed with binary search:      9999999     9999999
+ was the value found?:  T
+ CPU time with binary search:   2.000000000002000E-006
+  -------------------------- 
+ Testing on an unsorted array
+ Index computed with linear search:      4999999
+ was the value found?:  T
