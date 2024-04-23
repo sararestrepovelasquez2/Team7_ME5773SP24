@@ -1,0 +1,45 @@
+ Index computed with linear search:            6
+ Index computed with binary search:            6
+  ========================== 
+ OMP_NUM_THREADS:            1
+  -------------------------- 
+ Testing on a sorted array
+ Index computed with linear search:      9999999     9999999
+ was the value found?:  T
+ CPU time with linear search:   3.470706939697266E-002
+  ========================== 
+ OMP_NUM_THREADS:            2
+  -------------------------- 
+ Testing on a sorted array
+ Index computed with linear search:      9999999     9999999
+ was the value found?:  T
+ CPU time with linear search:   1.240086555480957E-002
+  ========================== 
+ OMP_NUM_THREADS:            4
+  -------------------------- 
+ Testing on a sorted array
+ Index computed with linear search:      9999999     9999999
+ was the value found?:  T
+ CPU time with linear search:   1.146388053894043E-002
+  ========================== 
+ OMP_NUM_THREADS:            8
+  -------------------------- 
+ Testing on a sorted array
+ Index computed with linear search:      9999999     9999999
+ was the value found?:  T
+ CPU time with linear search:   7.442951202392578E-003
+  ========================== 
+ OMP_NUM_THREADS:           16
+  -------------------------- 
+ Testing on a sorted array
+ Index computed with linear search:      9999999     9999999
+ was the value found?:  T
+ CPU time with linear search:   4.647016525268555E-003
+  -------------------------- 
+ Index computed with binary search:      9999999     9999999
+ was the value found?:  T
+ CPU time with binary search:   1.907348632812500E-006
+  -------------------------- 
+ Testing on an unsorted array
+ Index computed with linear search:      4999999
+ was the value found?:  T
