@@ -42,7 +42,7 @@ CONTAINS
    !
    !               Find idx such that arr(idx) == x
    !
-   PURE FUNCTION binarySearch(arr, n, x) RESULT(idx)
+   FUNCTION binarySearch(arr, n, x) RESULT(idx)
 
            IMPLICIT NONE
    
