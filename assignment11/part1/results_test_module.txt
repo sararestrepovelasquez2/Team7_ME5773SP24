@@ -1,0 +1,25 @@
+----------------------
+Search Algorithms Test
+----------------------
+The second to last element will be searched in all arrays.
+
+
+Sorted array:  [-10.          -7.77777778  -5.55555556  -3.33333333  -1.11111111
+   1.11111111   3.33333333   5.55555556   7.77777778  10.        ]
+Value sought in this array:  7.777777777777779
+Unsorted array:  [ 10.          -3.33333333   5.55555556   7.77777778 -10.
+  -5.55555556  -7.77777778  -1.11111111   1.11111111   3.33333333]
+Value sought in this array:  1.1111111111111107
+
+
+----------------------
+Linear Search Test:
+----------------------
+For the sorted array, the value was found at index:  9
+For the unsorted array, the value was found at index:  9
+
+
+----------------------
+Binary Search Test:
+----------------------
+For the sorted array, the value was found at index:  9

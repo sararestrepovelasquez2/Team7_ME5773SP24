@@ -1,0 +1,44 @@
+----------------------------------------
+Search Algorithms Performance Evaluation
+----------------------------------------
+The second to last element will be searched in all arrays.
+
+
+Value sought in sorted array:  9.999997999999803
+Value sought in unsorted array:  -8.330773833077384
+
+
+---------------------------
+Fortran Linear Search Test:
+---------------------------
+For the sorted array, the value was found at index:  9999999
+CPU time [s]:  0.009648561477661133
+
+
+For the unsorted array, the value was found at index:  9999999
+CPU time [s]:  0.009444475173950195
+
+
+---------------------------
+Fortran Binary Search Test:
+---------------------------
+For the sorted array, the value was found at index:  9999999
+CPU time [s]:  3.5762786865234375e-06
+
+
+------------------------
+Numpy SearchSorted Test:
+------------------------
+For the sorted array, the value was found at index:  9999998
+CPU time [s]:  3.647804260253906e-05
+
+
+-----------------
+Numpy Where Test:
+-----------------
+For the sorted array, the value was found at index:  (array([9999998]),)
+CPU time [s]:  0.009321928024291992
+
+
+For the unsorted array, the value was found at index:  (array([9999998]),)
+CPU time [s]:  0.008392333984375
