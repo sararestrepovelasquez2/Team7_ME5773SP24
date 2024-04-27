@@ -1,0 +1,48 @@
+ ==================== 
+N = 10
+Solve using dgesv using the mkl_solver function
+Time spent: 0.018554 s
+Solve using dsysv with the mkl_solver_symm function
+Time spent: 0.000324 s
+Solve using dsysv_work with the mkl_solver_symm_work function with lwork = 1
+Time spent: 0.000120 s
+ ==================== 
+N = 100
+Solve using dgesv using the mkl_solver function
+Time spent: 0.007759 s
+Solve using dsysv with the mkl_solver_symm function
+Time spent: 0.002733 s
+Solve using dsysv_work with the mkl_solver_symm_work function with lwork = 1
+Time spent: 0.000184 s
+ ==================== 
+N = 1000
+Solve using dgesv using the mkl_solver function
+Time spent: 0.040149 s
+Solve using dsysv with the mkl_solver_symm function
+Time spent: 0.020583 s
+Solve using dsysv_work with the mkl_solver_symm_work function with lwork = 1
+Time spent: 0.004284 s
+ ==================== 
+N = 5000
+Solve using dgesv using the mkl_solver function
+Time spent: 0.160039 s
+Solve using dsysv with the mkl_solver_symm function
+Time spent: 0.439469 s
+Solve using dsysv_work with the mkl_solver_symm_work function with lwork = 1
+Time spent: 0.113413 s
+ ==================== 
+N = 10000
+Solve using dgesv using the mkl_solver function
+Time spent: 0.642329 s
+Solve using dsysv with the mkl_solver_symm function
+Time spent: 2.107753 s
+Solve using dsysv_work with the mkl_solver_symm_work function with lwork = 1
+Time spent: 0.497343 s
+ ==================== 
+N = 50000
+Solve using dgesv using the mkl_solver function
+Time spent: 59.823701 s
+Solve using dsysv with the mkl_solver_symm function
+Time spent: 79.249212 s
+Solve using dsysv_work with the mkl_solver_symm_work function with lwork = 1
+Time spent: 9.695454 s
