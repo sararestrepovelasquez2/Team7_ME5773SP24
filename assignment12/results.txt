@@ -1,0 +1,19 @@
+==================
+CUPY
+==================
+Solution vector u:  [1.66666667e-05 3.33333333e-05 5.00000000e-05 ... 4.99966667e-01
+ 4.99983333e-01 5.00000000e-01]
+Time spent creating the K and f, and solving the system of equations: 4.492181 s.
+
+
+==================
+NUMPY
+==================
+Solution vector u:  [[1.66666667e-05]
+ [3.33333333e-05]
+ [5.00000000e-05]
+ ...
+ [4.99966667e-01]
+ [4.99983333e-01]
+ [5.00000000e-01]]
+Time spent creating the K and f, and solving the system of equations: 13.180090 s.
